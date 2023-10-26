@@ -1,0 +1,127 @@
+.nav_bar {
+    background-color: black;
+    padding: 25px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-right: 1px solid;
+}
+
+.nav_bar_right p{
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: darkslategrey;
+}
+
+.nav_bar_right{
+    float: right;
+    display: flex;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.table p {
+    border: 5px solid;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.B-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-01,
+.card-02,
+.card-03,
+.card-04 {
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+.bf-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bf-footer-r p{
+    text-align: justify;
+    width: 400px;
+}
+
+.fa-footer {
+    background-color: black;
+    display: flex;
+    padding: 40px;
+    color: white;
+}
+
+.fa-footer img {
+    margin-right:25px;
+}
+
+.h-links-1 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.h-links-2 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+    margin-left: 250px;
+}
+
+.textbox {
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.fa-footer button {
+    background-color: black;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+.f-buttons button {
+    background-color: black;
+    border: 1px solid;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+.my-form {
+    background-color: azure;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
